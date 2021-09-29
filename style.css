@@ -1,0 +1,9 @@
+body{
+    background-color: hsl(222, 26%, 31%);
+}
+p{
+    color: hsl(0, 0, 100%);
+}
+.header{
+    color: hsl(0, 0, 100%);
+}
