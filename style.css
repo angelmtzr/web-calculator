@@ -1,17 +1,22 @@
+html{
+    height: 100%;
+}
 body{
     font-family: 'Spartan', sans-serif;
     background-color: hsl(222, 26%, 31%);
     color: white;
-    margin: 5% 0 5% 0;
+    margin: 0;
     display: flex;
     justify-content: center;
+    height: 100%;
 }
 body div{ /*Buttons, Rows, Btn Section, Screen, and Header*/
     border-radius: 5px;
 }
 main{
-    width: 370px;
     margin: 20px;
+    width: 500px;
+    height: 600px;
 }
 h1{
     margin:0;
@@ -19,6 +24,10 @@ h1{
 h2{
     margin: 0;
     margin-right: 10px;
+    margin-bottom: 5px;
+}
+p{
+    margin: 0;
 }
 .header{
     display: flex;
@@ -26,24 +35,30 @@ h2{
 }
 #theme{
     display: flex;
-    font-size: 10px;
-    align-items:flex-end;
+    font-size: 8px;
+    align-items: flex-end;
+    justify-content: right;
 }
+.numbers-slider{
+    width: 50%;
+}
+
 #numbers-theme{
     display: flex;
     justify-content: space-between;
-    font-size: 15px;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #numbers-theme p{
     margin:0;
-}
-.numbers-slider{
 }
 .slider{
     -webkit-appearance: none;
     background-color: hsl(223, 31%, 20%);
     border-radius: 20px;
     height: 1.5rem;
+    width: 100%;
 }
 .slider::-webkit-slider-thumb{
     -webkit-appearance: none;
@@ -56,8 +71,8 @@ h2{
 }
 #screen{
     background-color: hsl(224, 36%, 15%);
-    padding: 20px 20px 20px 20px;
-    font-size: 2rem;
+    padding: 25px 25px 25px 25px;
+    font-size: 2.5rem;
     margin: 5% 0 5% 0;
 }
 #screen-text{
@@ -66,29 +81,38 @@ h2{
 }
 .btn-section{
     background-color: hsl(223, 31%, 20%);
-    padding: 10px;
+    padding: 25px 25px 10px 25px;
+    font-size: 1.9rem;
+}
+.btn-row{
+    display: flex;
+    justify-content: space-between;
 }
 .btn-section div{ /*Rows and buttons*/
     margin-bottom: 5%;
-    text-align: center;
 }
-.btn-section div div{ /*Each button*/
+.btn-section div div{ /*All buttons*/
     margin: 0;
     display: inline-block;
     width: 23%;
+    height: 3.5rem;
+}
+.btn-section p{ /*All text in button*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 .btn-n{
     background-color: hsl(30, 25%, 89%);
     box-shadow: 0 4px 0 0 hsl(28, 16%, 65%);
     color: hsl(221, 14%, 31%);
     text-align: center;
-    font-size: 1.5rem;
 }
 .btn-s{
     background-color: hsl(225, 21%, 49%);
     box-shadow: 0 4px 0 0 hsl(224, 28%, 35%);
     text-align: center;
-    margin: 0 0 0 0;
+    margin: 0;
 }
 .btn-f{
     background-color: hsl(6, 63%, 50%);
