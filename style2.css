@@ -1,0 +1,130 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Spartan', sans-serif;
+    background-color: hsl(268, 75%, 9%);
+    color: hsl(52, 100%, 62%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+body div{ /*Buttons, Rows, Btn Section, Screen, and Header*/
+    border-radius: 5px;
+}
+main{
+    margin: 20px;
+    width: 500px;
+    height: 600px;
+}
+h1{
+    margin:0;
+}
+h2{
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+p{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+#theme{
+    display: flex;
+    font-size: 8px;
+    align-items: flex-end;
+    justify-content: right;
+}
+.numbers-slider{
+    width: 50%;
+}
+
+#numbers-theme{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#numbers-theme p{
+    margin:0;
+}
+.slider{
+    -webkit-appearance: none;
+    background-color: hsl(268, 71%, 12%);
+    border-radius: 20px;
+    height: 1.5rem;
+    width: 100%;
+}
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: hsl(176, 100%, 44%);
+    overflow: visible;
+    cursor: pointer;
+}
+#screen{
+    background-color: hsl(268, 71%, 12%);
+    padding: 25px 25px 25px 25px;
+    font-size: 2.5rem;
+    margin: 5% 0 5% 0;
+}
+#screen-text{
+    text-align: right;
+    margin: 0 0 0 0;
+}
+.btn-section{
+    background-color: hsl(268, 71%, 12%);
+    padding: 25px 25px 10px 25px;
+    font-size: 1.9rem;
+}
+.btn-row{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-section div{ /*Rows and buttons*/
+    margin-bottom: 5%;
+}
+.btn-section div div{ /*All buttons*/
+    margin: 0;
+    display: inline-block;
+    width: 23%;
+    height: 3.5rem;
+}
+.btn-section p{ /*All text in button*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.btn-n{
+    background-color: hsl(268, 47%, 21%);
+    box-shadow: 0 4px 0 0 hsl(290, 70%, 36%);
+    text-align: center;
+}
+.btn-s{
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: 0 4px 0 0 hsl(285, 91%, 52%);
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+.btn-f{
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: 0 4px 0 0 hsl(177, 92%, 70%);
+    text-align: center;
+}
+#reset{
+    width: 47%;
+    margin: 0;
+}
+#equals{
+    width: 47%;
+    margin: 0;
+    color: hsl(198, 20%, 13%);
+}
