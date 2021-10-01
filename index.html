@@ -6,8 +6,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Calculator app</title>
   <link id="theme-1" rel="stylesheet" href="style.css">
-  <!--Bootsrap CSS-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <!--Spartan from Google Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,15 +14,15 @@
 <body>
   <main>
     <div class="header">
-      <div>
+      <div id="title">
         <h1>calc</h1>
       </div>
-      <div>
+      <div id="theme">
         <div>
           <h2>THEME</h2>
         </div>
-        <div>
-          <div>
+        <div class="numbers-slider">
+          <div id="numbers-theme">
             <p>1</p>
             <p>2</p>
             <p>3</p>
@@ -35,78 +33,75 @@
         </div>
       </div>
     </div>
-    <div>
-      <div>
-        <p>399,981</p>
-      </div>
+    <div id="screen">
+      <p id="screen-text">399,981</p>
     </div>
-    <div>
+    <div class="btn-section">
       <div>
-        <div>
+        <div class="btn-n">
           <p>7</p>
         </div>
-        <div>
+        <div class="btn-n">
           <p>8</p>
         </div>
-        <div>
+        <div class="btn-n">
           <p>9</p>
         </div>
-        <div>
+        <div class="btn-s">
           <p>DEL</p>
         </div>
       </div>
       <div>
-        <div>
+        <div class="btn-n">
           <p>4</p>
         </div>
-        <div>
+        <div class="btn-n">
           <p>5</p>
         </div>
-        <div>
+        <div class="btn-n">
           <p>6</p>
         </div>
-        <div id="+">
+        <div class="btn-n" id="+">
           <p>+</p>
         </div>
       </div>
       <div>
-        <div>
+        <div class="btn-n">
           <p>1</p>
         </div>
-        <div>
+        <div class="btn-n">
           <p>2</p>
         </div>
-        <div>
+        <div class="btn-n">
           <p>3</p>
         </div>
-        <div id="-">
+        <div class="btn-n" id="-">
           <p>-</p>
         </div>
       </div>
       <div>
-        <div>
+        <div class="btn-n">
           <p>.</p>
         </div>
-        <div>
+        <div class="btn-n">
           <p>0</p>
         </div>
-        <div id="/">
+        <div class="btn-n" id="/">
           <p>/</p>
         </div>
-        <div id="x">
+        <div class="btn-n" id="x">
           <p>x</p>
         </div>
       </div>
       <div>
-        <div>
+        <div class="btn-s" id="reset">
           <p>RESET</p>
         </div>
-        <div>
+        <div class="btn-f" id="equals">
           <p>=</p>
         </div>
       </div>
     </div>
   </main>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>

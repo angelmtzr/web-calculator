@@ -1,9 +1,105 @@
 body{
+    font-family: 'Spartan', sans-serif;
     background-color: hsl(222, 26%, 31%);
+    color: white;
+    margin: 5% 0 5% 0;
+    display: flex;
+    justify-content: center;
 }
-p{
-    color: hsl(0, 0, 100%);
+body div{ /*Buttons, Rows, Btn Section, Screen, and Header*/
+    border-radius: 5px;
+}
+main{
+    width: 370px;
+    margin: 20px;
+}
+h1{
+    margin:0;
+}
+h2{
+    margin: 0;
+    margin-right: 10px;
 }
 .header{
-    color: hsl(0, 0, 100%);
+    display: flex;
+    justify-content: space-between;
+}
+#theme{
+    display: flex;
+    font-size: 10px;
+    align-items:flex-end;
+}
+#numbers-theme{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+#numbers-theme p{
+    margin:0;
+}
+.numbers-slider{
+}
+.slider{
+    -webkit-appearance: none;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 20px;
+    height: 1.5rem;
+}
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: hsl(6, 63%, 50%);
+    overflow: visible;
+    cursor: pointer;
+}
+#screen{
+    background-color: hsl(224, 36%, 15%);
+    padding: 20px 20px 20px 20px;
+    font-size: 2rem;
+    margin: 5% 0 5% 0;
+}
+#screen-text{
+    text-align: right;
+    margin: 0 0 0 0;
+}
+.btn-section{
+    background-color: hsl(223, 31%, 20%);
+    padding: 10px;
+}
+.btn-section div{ /*Rows and buttons*/
+    margin-bottom: 5%;
+    text-align: center;
+}
+.btn-section div div{ /*Each button*/
+    margin: 0;
+    display: inline-block;
+    width: 23%;
+}
+.btn-n{
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 0 4px 0 0 hsl(28, 16%, 65%);
+    color: hsl(221, 14%, 31%);
+    text-align: center;
+    font-size: 1.5rem;
+}
+.btn-s{
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0 4px 0 0 hsl(224, 28%, 35%);
+    text-align: center;
+    margin: 0 0 0 0;
+}
+.btn-f{
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0 4px 0 0 hsl(6, 70%, 34%);
+    text-align: center;
+}
+#reset{
+    width: 47%;
+    margin: 0;
+}
+#equals{
+    width: 47%;
+    margin: 0;
 }
