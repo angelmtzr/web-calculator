@@ -4,4 +4,4 @@ Simple web application that includes a somewhat responsive and good-looking calc
 
 Deployment to Github Pages: 
 
-http://web.calculator/
+https://angelmtzr.github.io/web-calculator/
